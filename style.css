@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Playfair+Display:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+	font-family: "Playfair Display", serif;
+}
+
+body {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    width: 100vw;
+	overflow: hidden;
+	background: #f8eceb;
+}
+
+img {
+    /* width: 50%; */
+    margin: auto;
+    border-radius: 5%;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: 600;
+    padding: 20px 10px;
+    font-family: 'Dancing Script', cursive;
+    color: #e8a2a8;
+    text-align: center;
+    border-bottom: 2px solid #e8a2a8;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 12px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: #666;
+    border-bottom: 1px solid #ddd;
+    font-style: italic;
+    font-family: 'Dancing Script', cursive;
+    color: #e8a2a8;
+    margin: 0;
+}
+
+small {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: lighter;
+    opacity: 0.7;
+    padding: 0px 10px;
+    text-align: center;
+}
+
+.subtitulo {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: lighter;
+    opacity: 0.7;
+    padding: 0px 10px;
+}
+
+.numero-pagina {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: lighter;
+    opacity: 0.7;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.flipbook {
+    width: 1000px;
+    height: 600px;
+}
+
+.flipbook .hard {
+    background: #e8a2a8 !important;
+    color: #fff;
+    font-weight: bold;
+    border: none; 
+}
+
+.flipbook .hard small{
+	font-style: italic;
+	font-weight: lighter;
+	opacity: 0.7;
+	font-size: 14px;
+}
+
+.flipbook .page {
+    background: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    gap: 10px;
+    border: 1px solid rgba(255, 0, 0, 0.11);
+}
+
+.page img{
+	width: 70%;
+	object-fit: cover;
+	margin: auto;
+}
+
+.flipbook .page small{
+	font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.cover-page {
+    background: url('images/img-1.png');
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cover-content {
+    background: rgba(0, 0, 0, 0.4); /* Dark overlay for contrast */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.cover-page h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.cover-page h3 {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.cover-page .authors, .cover-page .anniversary {
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+.index-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.index-list li {
+    margin: 10px 0;
+}
+
+.index-list a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #e8a2a8;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    transition: 0.3s ease-in-out;
+    /* border-bottom: 2px solid #e8a2a8; */
+}
+
+.index-list a:hover {
+    color: #e8a2a8;
+    opacity: 0.8;
+    text-decoration: underline;
+    /* border-bottom: 2px solid #e8a2a8;  */
+}
+
