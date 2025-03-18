@@ -21,6 +21,12 @@ img {
     border-radius: 5%;
 }
 
+video {
+    /* width: 50%; */
+    margin: auto;
+    border-radius: 5%;
+}
+
 h3 {
     font-size: 28px;
     font-weight: 600;
